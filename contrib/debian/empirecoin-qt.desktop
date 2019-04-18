@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=EmpireCoin
+Comment=EmpireCoin P2P Cryptocurrency
+Comment[fr]=EmpireCoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=EmpireCoin, eşten eşe kriptografik sanal para birimi
+Exec=empirecoin-qt %u
+Terminal=false
+Type=Application
+Icon=empirecoin128
+MimeType=x-scheme-handler/empirecoin;
+Categories=Office;Finance;

@@ -1,0 +1,26 @@
+# /etc/conf.d/empirecoind: config file for /etc/init.d/empirecoind
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/empirecoin/empirecoin.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/empirecoind"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/empirecoind.pid"
+
+# Where to write empirecoind data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/empirecoind"
+
+# User and group to own empirecoind process
+#BITCOIND_USER="empirecoin"
+#BITCOIND_GROUP="empirecoin"
+
+# Path to empirecoind executable
+#BITCOIND_BIN="/usr/bin/empirecoind"
+
+# Nice value to run empirecoind under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
